@@ -1,0 +1,23 @@
+{
+    "name": "eduardo-pc/projeto_pws_2ano",
+    "autoload": {
+        "psr-4": {
+            "EduardoPc\\ProjetoPws2ano\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "2202420",
+            "email": "2202420@my.ipleiria.pt"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^1.39",
+        "php-activerecord/php-activerecord": "^1.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": false
+        }
+    }
+}
